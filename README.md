@@ -1,20 +1,9 @@
-# Java Practice Tasks
+# Point and Line Classes (Java)
 
-Small Java programs for Programming Fundamentals.
+Programming Fundamentals task: classes and objects.
 
-## Part 1: Methods and recursion
-
-| File | Task |
-|------|------|
-| `RectangleArea.java` | Area of a rectangle using method overloading (`int` -> `int`, `double` -> `double`) |
-| `DaysBetweenDates.java` | Number of days between two dates |
-| `DigitSum.java` | Recursive sum of digits of a natural number (e.g. `1342` -> `10`) |
-| `DirectorySize.java` | Checks a directory, prints total size in MB / KB / bytes and the size of every subdirectory |
-
-## Part 2: Classes and objects
-
-| File | Task |
-|------|------|
+| File | Description |
+|------|-------------|
 | `Point.java` | `Point` class: getters/setters, `distanceFromOrigin()`, `translate()`, `distance(Point)`, `setLocation()`, `toString()` (`[x;y]`) |
 | `PointTest.java` | Tests for `Point` |
 | `Line.java` | `Line` class built from two `Point` objects: two constructors, getters/setters, `toString()`, `length()` |
@@ -26,13 +15,6 @@ Requires JDK 11 or newer.
 
 ```bash
 javac *.java
-
-java RectangleArea
-java DaysBetweenDates
-java DigitSum
-java DirectorySize            # asks for a directory name
-java DirectorySize /some/path # or pass it as an argument
-
 java PointTest
 java LineTest
 ```
